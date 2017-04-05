@@ -1,0 +1,223 @@
+body
+{
+  font-family: sans-serif;
+}
+
+header
+{
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+img
+{
+  float: left;
+  position: absolute;
+  height: 75px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+video
+{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.navMenu
+{
+  float: right;
+  margin-right: 10%;
+  padding-top: 25px;
+}
+
+.navMenu .aboutUs
+{
+    background: white;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navMenu .takeAction
+{
+    background: white;
+    height: 50px;
+    float: right;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerText
+{
+  clear: both;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  color: white;
+  text-transform: uppercase;
+}
+
+.headerText h1
+{
+    color: #305291;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.ourPledge h2
+{
+  background: #305291;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.ourPledge p
+{
+  background: #305291;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.theIssues h2
+{
+  background: #F2F2F2;
+  margin: 0;
+  border-bottom: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: #305291;
+  text-transform: uppercase;
+}
+
+.theIssues p
+{
+  background: #F2F2F2;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: grey;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.energy, .airWater, .climateChange, .coalAsh
+{
+  background: #F2F2F2;
+  overflow: hidden;
+}
+
+.energy .energySmall, .energy .airWaterSmall, .energy .climateChangeSmall, .energy .coalAshSmall, .airWater .energySmall, .airWater .airWaterSmall, .airWater .climateChangeSmall, .airWater .coalAshSmall, .climateChange .energySmall, .climateChange .airWaterSmall, .climateChange .climateChangeSmall, .climateChange .coalAshSmall, .coalAsh .energySmall, .coalAsh .airWaterSmall, .coalAsh .climateChangeSmall, .coalAsh .coalAshSmall
+{
+    background: white;
+    width: 90%;
+    margin: 5%;
+    height: 300px;
+}
+
+.energy .energySmall i, .energy .airWaterSmall i, .energy .climateChangeSmall i, .energy .coalAshSmall i, .airWater .energySmall i, .airWater .airWaterSmall i, .airWater .climateChangeSmall i, .airWater .coalAshSmall i, .climateChange .energySmall i, .climateChange .airWaterSmall i, .climateChange .climateChangeSmall i, .climateChange .coalAshSmall i, .coalAsh .energySmall i, .coalAsh .airWaterSmall i, .coalAsh .climateChangeSmall i, .coalAsh .coalAshSmall i
+{
+      color: #305291;
+      margin-left: 47%;
+      padding-top: 10px;
+}
+
+.energy .energySmall h2, .energy .airWaterSmall h2, .energy .climateChangeSmall h2, .energy .coalAshSmall h2, .airWater .energySmall h2, .airWater .airWaterSmall h2, .airWater .climateChangeSmall h2, .airWater .coalAshSmall h2, .climateChange .energySmall h2, .climateChange .airWaterSmall h2, .climateChange .climateChangeSmall h2, .climateChange .coalAshSmall h2, .coalAsh .energySmall h2, .coalAsh .airWaterSmall h2, .coalAsh .climateChangeSmall h2, .coalAsh .coalAshSmall h2
+{
+      color: #305291;
+      text-align: center;
+}
+
+.energy .energySmall p, .energy .airWaterSmall p, .energy .climateChangeSmall p, .energy .coalAshSmall p, .airWater .energySmall p, .airWater .airWaterSmall p, .airWater .climateChangeSmall p, .airWater .coalAshSmall p, .climateChange .energySmall p, .climateChange .airWaterSmall p, .climateChange .climateChangeSmall p, .climateChange .coalAshSmall p, .coalAsh .energySmall p, .coalAsh .airWaterSmall p, .coalAsh .climateChangeSmall p, .coalAsh .coalAshSmall p
+{
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: center;
+      color: grey;
+      line-height: 30px;
+}
+
+.container
+{
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #f2f2f2;
+}
+
+footer
+{
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+footer p
+{
+    line-height: 50px;
+    text-align: center;
+    color: darkblue;
+}
+
+@media (min-width: 767px)
+{
+  nav
+  {
+    width: 80%;
+    margin-left: 15%;
+  }
+    nav img
+    {
+      padding-left: 25px;
+    }
+
+  .ourPledge h2
+  {
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  .ourPledge p
+  {
+    padding-bottom: 100px;
+  }
+
+  .energy, .airWater, .climateChange, .coalAsh
+  {
+    float: left;
+    width: 25%;
+    text-transform: uppercase;
+  }
+
+  footer
+  {
+    clear: both;
+    float: none;
+  }
+}
